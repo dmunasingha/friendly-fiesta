@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "fjalla_one";
+    src: url("fonts/FjallaOne-Regular.ttf");
+}
+@font-face {
+    font-family: "vag";
+    src: url("fonts/vag_rundschrift_d.ttf");
+}
+
+:root{
+    --orange:#FF8A00;
+    --yellow: #FFE600;
+
+}
+
+::-webkit-scrollbar{
+    background-color: transparent;
+    height: 4px;
+    width: 5px;
+    border-radius: 15%;
+}
+
+::-webkit-scrollbar-thumb{
+    height: 8px;
+    width: 8px;
+    background-color: #000000;
+}
+
+.bg-orange{
+    background-color:  var(--orange);
+}
+.txt-orange{
+    color:  var(--orange) !important;
+}
+.txt-yellow{
+   color:  var(--yellow) !important;
+}
+
+.fjalla-one{
+    font-family: fjalla_one;
+}
+.vag{
+    font-family: vag;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.btn-shop{
+    border: none !important;
+    background-color: var(--yellow) !important;
+    color: #000000 !important;
+}
+
+
+.wood-img{
+background-image: url("e1736113716355.58c12d993275b-edit.png");
+background-position: left;
+background-repeat: no-repeat;
+background-size: contain;
+height: 600px;
+
+}
+
+.prdt-bg{
+    background: #FFE600;
+box-shadow: 9px 9px 6px rgba(0, 0, 0, 0.25);
+}
+
+.scroll{
+    scroll-behavior: smooth;
+    scroll-snap-type:x mandatory;
+}
+
+.scroll div{
+    scroll-snap-align: center;
+}
